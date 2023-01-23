@@ -1,5 +1,7 @@
 ﻿Random randomNumber = new Random();
 int computerNumber = randomNumber.Next(1, 101);
+int secondStageComputerNumber = randomNumber.Next(1, 1001);
+int thirdStageComputerNumber = randomNumber.Next(1, 1000001);
 
 while (true)
 {
@@ -27,5 +29,5 @@ while (true)
     {
         Console.WriteLine("Invalid input.");
     }
-
 }
+Console.WriteLine("To be Continued...");
